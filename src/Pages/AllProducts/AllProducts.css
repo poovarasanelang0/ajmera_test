@@ -1,0 +1,23 @@
+.error-message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+
+.error-message span,
+.error-message h6,
+.error-message p {
+    display: block;
+    margin: 10px 0;
+}
+.error-message span{
+    color: blueviolet;
+    font-weight: bold;
+}
+.error-message h6
+{
+    font-size: 25px;
+}

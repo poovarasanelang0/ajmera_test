@@ -1,0 +1,32 @@
+.text_color {
+    color: blueviolet;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    background-color: #f0f0f0;
+    height: 100%; 
+    width: 100%;   
+    overflow: hidden; 
+    position: relative;
+}
+
+.image-container img {
+    max-width: 60%;  
+    height: auto;     
+}
+
+
+.scroll_down {
+    height: 500px;
+    overflow-y: auto;
+}
+
+@media only screen and (max-width:769px) {
+    .scroll_down {
+        height: auto;
+        overflow-y: auto;
+    }
+}
